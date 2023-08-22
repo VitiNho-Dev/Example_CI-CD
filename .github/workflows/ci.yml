@@ -11,6 +11,7 @@ jobs:
         uses: actions/setup-java@v3.12.0
         with:
           java-version: '17'
+          distribution: zulu
 
       - name: Flutter action
         uses: subosito/flutter-action@v2.10.0
